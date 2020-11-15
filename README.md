@@ -5,7 +5,7 @@ We use a cross-domain model for getting similarity score of the dynamic image wi
 The model is able to handle multiple dynamic domains such as night, evening, rainy, etc.
 
 <p align="center">
-  <img src="images/cross-domain.png" width="600" />
+  <img src="images/cross-domain.png" width="800" />
 </p>
 
 Current inference method is via binning, sequences, and local localization. Currently, we are incorporating particle filters to replace the coarse binning method.
