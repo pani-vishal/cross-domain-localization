@@ -4,8 +4,8 @@ Aim is to use Cross-Domain images and compare them against a static map to local
 We use a cross-domain model for getting similarity score of the dynamic image with the static image present in the static map.
 The model is able to handle multiple dynamic domains such as night, evening, rainy, etc.
 
-Current inference method is via binning, sequences, and local localization. Currently, we are incorporating particle filters to replace the coarse binning method.
+<img src="images/cross-domain.png" width="600" />
 
-![Model]["images/cross-domain.png"]
+Current inference method is via binning, sequences, and local localization. Currently, we are incorporating particle filters to replace the coarse binning method.
 
 **My major contribution**: DynamicNet in networks/crossdomain.py 
