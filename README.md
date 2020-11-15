@@ -6,6 +6,6 @@ The model is able to handle multiple dynamic domains such as night, evening, rai
 
 Current inference method is via binning, sequences, and local localization. Currently, we are incorporating particle filters to replace the coarse binning method.
 
-![Model][images/cross-domain.png]
+![Model]["images/cross-domain.png"]
 
-My major contribution: the model in networks/crossdomain.py 
+**My major contribution**: DynamicNet in networks/crossdomain.py 
